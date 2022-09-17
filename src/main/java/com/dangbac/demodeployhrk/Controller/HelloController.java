@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String hello(){
-        return "<center><h1>deploy in Heroku<h1/><center/>";
+        return "<center><h1>deploy in Heroku<h1/><center/> <br/> <center><h1>Hellogit <h1/><center/>";
     }
 }
